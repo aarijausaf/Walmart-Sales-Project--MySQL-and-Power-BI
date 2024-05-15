@@ -91,6 +91,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 7. Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
 8. Which branch sold more products than average product sold?
 9. What is the most common product line by gender?
+10. Create a stored procedure to show all transactions with top 10 revenue.
 12. What is the average rating of each product line?
 
 ### Sales
@@ -147,11 +148,11 @@ $ \text{Gross Margin Percentage} = \frac{\text{gross income}}{\text{total revenu
 
 ## Code
 
-For the rest of the code, check the [SQL_queries.sql](https://github.com/Princekrampah/WalmartSalesAnalysis/blob/master/SQL_queries.sql) file
+For the rest of the code, check the [SQL_queries.sql] (https://github.com/aarijausaf/Walmart-Sales-Project--MySQL-and-Power-BI/blob/main/WalmartSales%20SQL%20Query) file
 
 ```sql
 -- Create database
-CREATE DATABASE IF NOT EXISTS walmartSales;
+CREATE DATABASE IF NOT EXISTS WalmartSales;
 
 -- Create table
 CREATE TABLE IF NOT EXISTS sales(
